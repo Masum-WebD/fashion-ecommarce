@@ -1,0 +1,1243 @@
+{
+  "critical": [
+    {
+      "file": "src\\app\\(dashboard)\\dashboard\\affiliate\\payouts\\[id]\\invoice\\page.tsx",
+      "line": 39,
+      "reason": "Potential hydration mismatch trigger (window.print();). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(dashboard)\\dashboard\\customer\\orders\\[orderId]\\invoice\\page.tsx",
+      "line": 50,
+      "reason": "Potential hydration mismatch trigger (window.print();). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(dashboard)\\dashboard\\customer\\orders\\[orderId]\\invoice\\page.tsx",
+      "line": 56,
+      "reason": "Potential hydration mismatch trigger (window.print();). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(dashboard)\\dashboard\\page.tsx",
+      "line": 65,
+      "reason": "Potential hydration mismatch trigger (created_at: new Date().toISOString(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(dashboard)\\dashboard\\page.tsx",
+      "line": 66,
+      "reason": "Potential hydration mismatch trigger (updated_at: new Date().toISOString(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(dashboard)\\dashboard\\wholesaler\\orders\\create\\page.tsx",
+      "line": 40,
+      "reason": "Potential hydration mismatch trigger (setDate(new Date().toISOString().split('T')[0]);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(dashboard)\\dashboard\\wholesaler\\orders\\create\\page.tsx",
+      "line": 201,
+      "reason": "Potential hydration mismatch trigger ({ id: Math.random().toString(), product_name: \"\", weight: 0, quantity: 1, price: 0, total: 0 }). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(dashboard)\\dashboard\\wholesaler\\orders\\[id]\\invoice\\page.tsx",
+      "line": 51,
+      "reason": "Potential hydration mismatch trigger (window.print();). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(dashboard)\\dashboard\\wholesaler\\orders\\[id]\\invoice\\page.tsx",
+      "line": 57,
+      "reason": "Potential hydration mismatch trigger (window.print();). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\blog\\BlogClient.tsx",
+      "line": 41,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top: 0, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\checkout\\page.tsx",
+      "line": 196,
+      "reason": "Potential hydration mismatch trigger (sessionStorage.removeItem('transactionImage');). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\checkout\\page.tsx",
+      "line": 201,
+      "reason": "Potential hydration mismatch trigger (const savedImage = sessionStorage.getItem('transactionImage');). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\checkout\\page.tsx",
+      "line": 220,
+      "reason": "Potential hydration mismatch trigger (sessionStorage.removeItem('transactionImage');). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\checkout\\page.tsx",
+      "line": 239,
+      "reason": "Potential hydration mismatch trigger (sessionStorage.setItem('transactionImage', previewUrl);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\checkout\\page.tsx",
+      "line": 418,
+      "reason": "Potential hydration mismatch trigger (sessionStorage.removeItem('transactionImage');). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\checkout\\page.tsx",
+      "line": 426,
+      "reason": "Potential hydration mismatch trigger (sessionStorage.setItem('orderConfirmState', JSON.stringify(state));). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\checkout\\page.tsx",
+      "line": 435,
+      "reason": "Potential hydration mismatch trigger (sessionStorage.removeItem('transactionImage');). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\checkout\\page.tsx",
+      "line": 443,
+      "reason": "Potential hydration mismatch trigger (sessionStorage.setItem('orderConfirmState', JSON.stringify(state));). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\faq\\FaqClient.tsx",
+      "line": 371,
+      "reason": "Potential hydration mismatch trigger (const top = el.getBoundingClientRect().top + window.scrollY - offset;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\faq\\FaqClient.tsx",
+      "line": 372,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\faq\\FaqClient.tsx",
+      "line": 518,
+      "reason": "Potential hydration mismatch trigger (const scrollY = window.scrollY;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\faq\\FaqClient.tsx",
+      "line": 519,
+      "reason": "Potential hydration mismatch trigger (const scrollBottom = scrollY + window.innerHeight;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\faq\\FaqClient.tsx",
+      "line": 531,
+      "reason": "Potential hydration mismatch trigger (window.addEventListener(\"scroll\", handleScroll, { passive: true });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\faq\\FaqClient.tsx",
+      "line": 576,
+      "reason": "Potential hydration mismatch trigger (const top = el.getBoundingClientRect().top + window.scrollY - 100;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\faq\\FaqClient.tsx",
+      "line": 577,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\house-design\\HouseDesignClient.tsx",
+      "line": 28,
+      "reason": "Potential hydration mismatch trigger (const hash = window.location.hash;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\house-design\\HouseDesignClient.tsx",
+      "line": 34,
+      "reason": "Potential hydration mismatch trigger (const elementPosition = element.getBoundingClientRect().top + window.scrollY;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\house-design\\HouseDesignClient.tsx",
+      "line": 35,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\house-design\\HouseDesignClient.tsx",
+      "line": 44,
+      "reason": "Potential hydration mismatch trigger (window.addEventListener(\"hashchange\", handleHashChange);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\house-design\\HouseDesignClient.tsx",
+      "line": 47,
+      "reason": "Potential hydration mismatch trigger (window.removeEventListener(\"hashchange\", handleHashChange);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\order-confirmation\\page.tsx",
+      "line": 55,
+      "reason": "Potential hydration mismatch trigger (const raw = sessionStorage.getItem('orderConfirmState');). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\order-confirmation\\page.tsx",
+      "line": 67,
+      "reason": "Potential hydration mismatch trigger (const alreadyTracked = sessionStorage.getItem(trackingKey);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\order-confirmation\\page.tsx",
+      "line": 70,
+      "reason": "Potential hydration mismatch trigger (sessionStorage.setItem(trackingKey, 'true');). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\privacy-policy\\PrivacyPolicyClient.tsx",
+      "line": 57,
+      "reason": "Potential hydration mismatch trigger (const top = el.getBoundingClientRect().top + window.scrollY - offset;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\privacy-policy\\PrivacyPolicyClient.tsx",
+      "line": 58,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\privacy-policy\\PrivacyPolicyClient.tsx",
+      "line": 181,
+      "reason": "Potential hydration mismatch trigger (const scrollBottom = window.innerHeight + window.scrollY;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\privacy-policy\\PrivacyPolicyClient.tsx",
+      "line": 189,
+      "reason": "Potential hydration mismatch trigger (window.addEventListener(\"scroll\", handleScroll, { passive: true });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\privacy-policy\\PrivacyPolicyClient.tsx",
+      "line": 239,
+      "reason": "Potential hydration mismatch trigger (window.scrollY -). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\privacy-policy\\PrivacyPolicyClient.tsx",
+      "line": 241,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\product-tag\\[slug]\\ProductTagClient.tsx",
+      "line": 138,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top: 0, behavior: 'smooth' });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\services\\ServicesClient.tsx",
+      "line": 69,
+      "reason": "Potential hydration mismatch trigger (const top = el.getBoundingClientRect().top + window.scrollY - offset;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\services\\ServicesClient.tsx",
+      "line": 70,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\services\\ServicesClient.tsx",
+      "line": 194,
+      "reason": "Potential hydration mismatch trigger (const scrollY = window.scrollY;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\services\\ServicesClient.tsx",
+      "line": 195,
+      "reason": "Potential hydration mismatch trigger (const scrollBottom = scrollY + window.innerHeight;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\services\\ServicesClient.tsx",
+      "line": 207,
+      "reason": "Potential hydration mismatch trigger (window.addEventListener(\"scroll\", handleScroll, { passive: true });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\services\\ServicesClient.tsx",
+      "line": 281,
+      "reason": "Potential hydration mismatch trigger (const top = el.getBoundingClientRect().top + window.scrollY - 100;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\services\\ServicesClient.tsx",
+      "line": 282,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\shipping-returns\\ShippingReturnsClient.tsx",
+      "line": 70,
+      "reason": "Potential hydration mismatch trigger (const top = el.getBoundingClientRect().top + window.scrollY - offset;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\shipping-returns\\ShippingReturnsClient.tsx",
+      "line": 71,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\shipping-returns\\ShippingReturnsClient.tsx",
+      "line": 203,
+      "reason": "Potential hydration mismatch trigger (const scrollBottom = window.innerHeight + window.scrollY;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\shipping-returns\\ShippingReturnsClient.tsx",
+      "line": 211,
+      "reason": "Potential hydration mismatch trigger (window.addEventListener(\"scroll\", handleScroll, { passive: true });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\shipping-returns\\ShippingReturnsClient.tsx",
+      "line": 249,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top: 0, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\shipping-returns\\ShippingReturnsClient.tsx",
+      "line": 301,
+      "reason": "Potential hydration mismatch trigger (window.scrollY -). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\shipping-returns\\ShippingReturnsClient.tsx",
+      "line": 303,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\tag\\[slug]\\TagClient.tsx",
+      "line": 107,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top: 0, behavior: 'smooth' });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\terms\\TermsClient.tsx",
+      "line": 77,
+      "reason": "Potential hydration mismatch trigger (const top = el.getBoundingClientRect().top + window.scrollY - offset;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\terms\\TermsClient.tsx",
+      "line": 78,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\terms\\TermsClient.tsx",
+      "line": 213,
+      "reason": "Potential hydration mismatch trigger (const scrollBottom = window.innerHeight + window.scrollY;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\terms\\TermsClient.tsx",
+      "line": 221,
+      "reason": "Potential hydration mismatch trigger (window.addEventListener(\"scroll\", handleScroll, { passive: true });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\terms\\TermsClient.tsx",
+      "line": 261,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top: 0, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\terms\\TermsClient.tsx",
+      "line": 308,
+      "reason": "Potential hydration mismatch trigger (window.scrollY -). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\terms\\TermsClient.tsx",
+      "line": 310,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\tips\\TipsClient.tsx",
+      "line": 12,
+      "reason": "Potential hydration mismatch trigger (const hash = window.location.hash;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\tips\\TipsClient.tsx",
+      "line": 18,
+      "reason": "Potential hydration mismatch trigger (const elementPosition = element.getBoundingClientRect().top + window.scrollY;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\tips\\TipsClient.tsx",
+      "line": 19,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\tips\\TipsClient.tsx",
+      "line": 28,
+      "reason": "Potential hydration mismatch trigger (window.addEventListener(\"hashchange\", handleHashChange);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\(public)\\tips\\TipsClient.tsx",
+      "line": 31,
+      "reason": "Potential hydration mismatch trigger (window.removeEventListener(\"hashchange\", handleHashChange);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 12,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 18,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 24,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 30,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 36,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 42,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 48,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 54,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 60,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 66,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 72,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 78,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 84,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 90,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\app\\sitemap.ts",
+      "line": 96,
+      "reason": "Potential hydration mismatch trigger (lastModified: new Date(),). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\dashboard\\CustomerPurchaseSummary.tsx",
+      "line": 111,
+      "reason": "Potential hydration mismatch trigger ({Math.floor((new Date().getTime() - new Date(customer.lastOrderDate).getTime()) / (1000 * 60 * 60 * 24))} days ago). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\ErrorTracker.tsx",
+      "line": 35,
+      "reason": "Potential hydration mismatch trigger (url: url || window.location.href,). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\ErrorTracker.tsx",
+      "line": 49,
+      "reason": "Potential hydration mismatch trigger (window.addEventListener(\"unhandledrejection\", handleUnhandledRejection);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\ErrorTracker.tsx",
+      "line": 51,
+      "reason": "Potential hydration mismatch trigger (window.addEventListener(\"error\", handleError, true);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\ErrorTracker.tsx",
+      "line": 54,
+      "reason": "Potential hydration mismatch trigger (window.removeEventListener(\"unhandledrejection\", handleUnhandledRejection);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\ErrorTracker.tsx",
+      "line": 55,
+      "reason": "Potential hydration mismatch trigger (window.removeEventListener(\"error\", handleError, true);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\layout\\Footer.tsx",
+      "line": 35,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top: 0, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\layout\\Footer.tsx",
+      "line": 177,
+      "reason": "Potential hydration mismatch trigger ({settings?.footer_text || `© ${new Date().getFullYear()} Siraj Tech Limited. All rights reserved.`}). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\layout\\Navbar.tsx",
+      "line": 82,
+      "reason": "Potential hydration mismatch trigger (window.addEventListener(\"scroll\", onScroll, { passive: true });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\layout\\Navbar.tsx",
+      "line": 96,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({ top: 0, behavior: \"smooth\" });). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\layout\\Navbar.tsx",
+      "line": 112,
+      "reason": "Potential hydration mismatch trigger (window.history.pushState(null, \"\", href);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\layout\\Navbar.tsx",
+      "line": 434,
+      "reason": "Potential hydration mismatch trigger (const userStr = localStorage.getItem(\"sirajtech_user\");). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\layout\\ScrollToTop.tsx",
+      "line": 11,
+      "reason": "Potential hydration mismatch trigger (window.scrollTo({). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\shop\\ProductActions.tsx",
+      "line": 168,
+      "reason": "Potential hydration mismatch trigger (window.dispatchEvent(event);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\shop\\ProductGallery.tsx",
+      "line": 32,
+      "reason": "Potential hydration mismatch trigger (window.addEventListener(\"variantSelected\", handleVariantSelected as EventListener);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\shop\\ProductGallery.tsx",
+      "line": 34,
+      "reason": "Potential hydration mismatch trigger (window.removeEventListener(\"variantSelected\", handleVariantSelected as EventListener);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\shop\\ShopClient.tsx",
+      "line": 131,
+      "reason": "Potential hydration mismatch trigger (const params = new URLSearchParams(window.location.search);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\shop\\ShopClient.tsx",
+      "line": 231,
+      "reason": "Potential hydration mismatch trigger (const path = window.location.pathname;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\shop\\ShopClient.tsx",
+      "line": 232,
+      "reason": "Potential hydration mismatch trigger (window.history.pushState(null, '', queryStr ? `${path}?${queryStr}` : path);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\shop\\ShopClient.tsx",
+      "line": 344,
+      "reason": "Potential hydration mismatch trigger (const path = window.location.pathname;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\shop\\ShopClient.tsx",
+      "line": 345,
+      "reason": "Potential hydration mismatch trigger (window.history.pushState(null, '', path);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\shop\\ShopClient.tsx",
+      "line": 347,
+      "reason": "Potential hydration mismatch trigger (// window.history.pushState(null, '', '/shop');). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\ui\\sidebar.tsx",
+      "line": 89,
+      "reason": "Potential hydration mismatch trigger (window.addEventListener(\"keydown\", handleKeyDown);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\components\\ui\\sidebar.tsx",
+      "line": 538,
+      "reason": "Potential hydration mismatch trigger (return `${Math.floor(Math.random() * 40) + 50}%`;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\context\\AuthContext.tsx",
+      "line": 1,
+      "reason": "Component uses React hooks (import { createContext, useContext, useState, useEffect, ReactNode, useCallback } from \"react\";) but is missing 'use client' directive. This causes errors in Server Components.",
+      "fix": "Add \"use client\"; at the very top of the file."
+    },
+    {
+      "file": "src\\context\\AuthContext.tsx",
+      "line": 73,
+      "reason": "Potential hydration mismatch trigger (return localStorage.getItem(TOKEN_KEY);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\context\\AuthContext.tsx",
+      "line": 81,
+      "reason": "Potential hydration mismatch trigger (const raw = localStorage.getItem(USER_KEY);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\context\\AuthContext.tsx",
+      "line": 90,
+      "reason": "Potential hydration mismatch trigger (localStorage.setItem(TOKEN_KEY, token);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\context\\AuthContext.tsx",
+      "line": 91,
+      "reason": "Potential hydration mismatch trigger (localStorage.setItem(USER_KEY, JSON.stringify(user));). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\context\\AuthContext.tsx",
+      "line": 95,
+      "reason": "Potential hydration mismatch trigger (localStorage.removeItem(TOKEN_KEY);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\context\\AuthContext.tsx",
+      "line": 96,
+      "reason": "Potential hydration mismatch trigger (localStorage.removeItem(USER_KEY);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\context\\AuthContext.tsx",
+      "line": 104,
+      "reason": "Component uses React hooks (const [user, setUser] = useState<User | null>(loadUser);) but is missing 'use client' directive. This causes errors in Server Components.",
+      "fix": "Add \"use client\"; at the very top of the file."
+    },
+    {
+      "file": "src\\context\\AuthContext.tsx",
+      "line": 105,
+      "reason": "Component uses React hooks (const [token, setToken] = useState<string | null>(loadToken);) but is missing 'use client' directive. This causes errors in Server Components.",
+      "fix": "Add \"use client\"; at the very top of the file."
+    },
+    {
+      "file": "src\\context\\AuthContext.tsx",
+      "line": 108,
+      "reason": "Component uses React hooks (useEffect(() => {) but is missing 'use client' directive. This causes errors in Server Components.",
+      "fix": "Add \"use client\"; at the very top of the file."
+    },
+    {
+      "file": "src\\context\\CartContext.tsx",
+      "line": 1,
+      "reason": "Component uses React hooks (import { createContext, useContext, useReducer, useEffect, ReactNode } from \"react\";) but is missing 'use client' directive. This causes errors in Server Components.",
+      "fix": "Add \"use client\"; at the very top of the file."
+    },
+    {
+      "file": "src\\context\\CartContext.tsx",
+      "line": 75,
+      "reason": "Potential hydration mismatch trigger (const raw = localStorage.getItem(STORAGE_KEY);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\context\\CartContext.tsx",
+      "line": 86,
+      "reason": "Component uses React hooks (useEffect(() => {) but is missing 'use client' directive. This causes errors in Server Components.",
+      "fix": "Add \"use client\"; at the very top of the file."
+    },
+    {
+      "file": "src\\context\\CartContext.tsx",
+      "line": 87,
+      "reason": "Potential hydration mismatch trigger (localStorage.setItem(STORAGE_KEY, JSON.stringify(state));). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\hooks\\use-mobile.tsx",
+      "line": 11,
+      "reason": "Potential hydration mismatch trigger (const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\hooks\\use-mobile.tsx",
+      "line": 13,
+      "reason": "Potential hydration mismatch trigger (setIsMobile(window.innerWidth < MOBILE_BREAKPOINT);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\hooks\\use-mobile.tsx",
+      "line": 16,
+      "reason": "Potential hydration mismatch trigger (setIsMobile(window.innerWidth < MOBILE_BREAKPOINT);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\lib\\analytics\\dataLayer.ts",
+      "line": 10,
+      "reason": "Potential hydration mismatch trigger (browserId = \"b_\" + Math.random().toString(36).substring(2, 15) + \"_\" + Date.now();). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\lib\\analytics\\dataLayer.ts",
+      "line": 23,
+      "reason": "Potential hydration mismatch trigger (if (typeof window === \"undefined\" || !window.crypto || !window.crypto.subtle) {). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\lib\\analytics\\dataLayer.ts",
+      "line": 33,
+      "reason": "Potential hydration mismatch trigger (const hashBuffer = await window.crypto.subtle.digest(\"SHA-256\", msgUint8);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\lib\\error-logger.ts",
+      "line": 33,
+      "reason": "Potential hydration mismatch trigger (if (!payload.url) payload.url = window.location.href;). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\providers\\CartProvider.tsx",
+      "line": 100,
+      "reason": "Potential hydration mismatch trigger (const raw = localStorage.getItem(STORAGE_KEY);). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    },
+    {
+      "file": "src\\providers\\CartProvider.tsx",
+      "line": 149,
+      "reason": "Potential hydration mismatch trigger (localStorage.setItem(STORAGE_KEY, JSON.stringify(state));). If this runs during server rendering, the output will differ from the client.",
+      "fix": "Wrap the usage in useEffect, or conditionally render only after a 'mounted' state becomes true."
+    }
+  ],
+  "high": [
+    {
+      "file": "src\\app\\(public)\\brand\\[slug]\\BrandClient.tsx",
+      "line": 6,
+      "reason": "Third-party DOM-manipulating library (Swiper) imported. Ensure it's only loaded on the client side to avoid hydration errors.",
+      "fix": "Use next/dynamic with ssr: false for components containing Swiper, or ensure proper initialization inside useEffect."
+    },
+    {
+      "file": "src\\app\\(public)\\brand\\[slug]\\BrandClient.tsx",
+      "line": 7,
+      "reason": "Third-party DOM-manipulating library (Swiper) imported. Ensure it's only loaded on the client side to avoid hydration errors.",
+      "fix": "Use next/dynamic with ssr: false for components containing Swiper, or ensure proper initialization inside useEffect."
+    },
+    {
+      "file": "src\\app\\(public)\\faq\\FaqClient.tsx",
+      "line": 368,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\faq\\FaqClient.tsx",
+      "line": 472,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\faq\\FaqClient.tsx",
+      "line": 520,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\faq\\FaqClient.tsx",
+      "line": 574,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\house-design\\HouseDesignClient.tsx",
+      "line": 31,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\privacy-policy\\PrivacyPolicyClient.tsx",
+      "line": 54,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\privacy-policy\\PrivacyPolicyClient.tsx",
+      "line": 142,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\privacy-policy\\PrivacyPolicyClient.tsx",
+      "line": 182,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\privacy-policy\\PrivacyPolicyClient.tsx",
+      "line": 235,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\services\\ServicesClient.tsx",
+      "line": 66,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\services\\ServicesClient.tsx",
+      "line": 127,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\services\\ServicesClient.tsx",
+      "line": 196,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\services\\ServicesClient.tsx",
+      "line": 279,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\shipping-returns\\ShippingReturnsClient.tsx",
+      "line": 67,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\shipping-returns\\ShippingReturnsClient.tsx",
+      "line": 155,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\shipping-returns\\ShippingReturnsClient.tsx",
+      "line": 204,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\shipping-returns\\ShippingReturnsClient.tsx",
+      "line": 295,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\terms\\TermsClient.tsx",
+      "line": 74,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\terms\\TermsClient.tsx",
+      "line": 165,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\terms\\TermsClient.tsx",
+      "line": 214,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\terms\\TermsClient.tsx",
+      "line": 302,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\tips\\TipsClient.tsx",
+      "line": 15,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\app\\(public)\\[slug]\\BlogDetailClient.tsx",
+      "line": 6,
+      "reason": "Third-party DOM-manipulating library (Swiper) imported. Ensure it's only loaded on the client side to avoid hydration errors.",
+      "fix": "Use next/dynamic with ssr: false for components containing Swiper, or ensure proper initialization inside useEffect."
+    },
+    {
+      "file": "src\\app\\(public)\\[slug]\\BlogDetailClient.tsx",
+      "line": 7,
+      "reason": "Third-party DOM-manipulating library (Swiper) imported. Ensure it's only loaded on the client side to avoid hydration errors.",
+      "fix": "Use next/dynamic with ssr: false for components containing Swiper, or ensure proper initialization inside useEffect."
+    },
+    {
+      "file": "src\\components\\blog\\RelatedCategoriesSlider.tsx",
+      "line": 4,
+      "reason": "Third-party DOM-manipulating library (Swiper) imported. Ensure it's only loaded on the client side to avoid hydration errors.",
+      "fix": "Use next/dynamic with ssr: false for components containing Swiper, or ensure proper initialization inside useEffect."
+    },
+    {
+      "file": "src\\components\\blog\\RelatedCategoriesSlider.tsx",
+      "line": 5,
+      "reason": "Third-party DOM-manipulating library (Swiper) imported. Ensure it's only loaded on the client side to avoid hydration errors.",
+      "fix": "Use next/dynamic with ssr: false for components containing Swiper, or ensure proper initialization inside useEffect."
+    },
+    {
+      "file": "src\\components\\home\\ProductsSectionEnhanced.tsx",
+      "line": 9,
+      "reason": "Third-party DOM-manipulating library (Swiper) imported. Ensure it's only loaded on the client side to avoid hydration errors.",
+      "fix": "Use next/dynamic with ssr: false for components containing Swiper, or ensure proper initialization inside useEffect."
+    },
+    {
+      "file": "src\\components\\home\\ProductsSectionEnhanced.tsx",
+      "line": 10,
+      "reason": "Third-party DOM-manipulating library (Swiper) imported. Ensure it's only loaded on the client side to avoid hydration errors.",
+      "fix": "Use next/dynamic with ssr: false for components containing Swiper, or ensure proper initialization inside useEffect."
+    },
+    {
+      "file": "src\\components\\layout\\Navbar.tsx",
+      "line": 100,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\components\\layout\\Navbar.tsx",
+      "line": 108,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    },
+    {
+      "file": "src\\components\\layout\\Navbar.tsx",
+      "line": 426,
+      "reason": "Direct DOM manipulation found. Avoid direct DOM manipulation in React as it causes virtual DOM inconsistencies.",
+      "fix": "Use React refs (useRef) and state instead of direct DOM manipulation."
+    }
+  ],
+  "medium": [
+    {
+      "file": "src\\app\\(dashboard)\\dashboard\\affiliate\\help\\page.tsx",
+      "line": 97,
+      "reason": "dangerouslySetInnerHTML used. Ensure the content is sanitized to prevent XSS attacks and doesn't conflict with hydration.",
+      "fix": "Use DOMPurify or similar to sanitize HTML before injecting, or avoid if possible."
+    },
+    {
+      "file": "src\\app\\(dashboard)\\dashboard\\affiliate\\products\\page.tsx",
+      "line": 361,
+      "reason": "dangerouslySetInnerHTML used. Ensure the content is sanitized to prevent XSS attacks and doesn't conflict with hydration.",
+      "fix": "Use DOMPurify or similar to sanitize HTML before injecting, or avoid if possible."
+    },
+    {
+      "file": "src\\app\\(dashboard)\\dashboard\\customer\\orders\\[orderId]\\invoice\\page.tsx",
+      "line": 86,
+      "reason": "dangerouslySetInnerHTML used. Ensure the content is sanitized to prevent XSS attacks and doesn't conflict with hydration.",
+      "fix": "Use DOMPurify or similar to sanitize HTML before injecting, or avoid if possible."
+    },
+    {
+      "file": "src\\app\\(dashboard)\\dashboard\\wholesaler\\orders\\[id]\\invoice\\page.tsx",
+      "line": 87,
+      "reason": "dangerouslySetInnerHTML used. Ensure the content is sanitized to prevent XSS attacks and doesn't conflict with hydration.",
+      "fix": "Use DOMPurify or similar to sanitize HTML before injecting, or avoid if possible."
+    },
+    {
+      "file": "src\\app\\(public)\\page\\[slug]\\CustomPageClient.tsx",
+      "line": 96,
+      "reason": "dangerouslySetInnerHTML used. Ensure the content is sanitized to prevent XSS attacks and doesn't conflict with hydration.",
+      "fix": "Use DOMPurify or similar to sanitize HTML before injecting, or avoid if possible."
+    },
+    {
+      "file": "src\\app\\(public)\\page\\[slug]\\page.tsx",
+      "line": 100,
+      "reason": "dangerouslySetInnerHTML used. Ensure the content is sanitized to prevent XSS attacks and doesn't conflict with hydration.",
+      "fix": "Use DOMPurify or similar to sanitize HTML before injecting, or avoid if possible."
+    },
+    {
+      "file": "src\\app\\(public)\\product\\[productId]\\page.tsx",
+      "line": 151,
+      "reason": "dangerouslySetInnerHTML used. Ensure the content is sanitized to prevent XSS attacks and doesn't conflict with hydration.",
+      "fix": "Use DOMPurify or similar to sanitize HTML before injecting, or avoid if possible."
+    },
+    {
+      "file": "src\\app\\(public)\\product\\[productId]\\page.tsx",
+      "line": 220,
+      "reason": "dangerouslySetInnerHTML used. Ensure the content is sanitized to prevent XSS attacks and doesn't conflict with hydration.",
+      "fix": "Use DOMPurify or similar to sanitize HTML before injecting, or avoid if possible."
+    },
+    {
+      "file": "src\\app\\(public)\\tips\\[tipId]\\TipDetailClient.tsx",
+      "line": 79,
+      "reason": "dangerouslySetInnerHTML used. Ensure the content is sanitized to prevent XSS attacks and doesn't conflict with hydration.",
+      "fix": "Use DOMPurify or similar to sanitize HTML before injecting, or avoid if possible."
+    },
+    {
+      "file": "src\\app\\(public)\\[slug]\\BlogDetailClient.tsx",
+      "line": 162,
+      "reason": "dangerouslySetInnerHTML used. Ensure the content is sanitized to prevent XSS attacks and doesn't conflict with hydration.",
+      "fix": "Use DOMPurify or similar to sanitize HTML before injecting, or avoid if possible."
+    },
+    {
+      "file": "src\\app\\(public)\\[slug]\\page.tsx",
+      "line": 181,
+      "reason": "dangerouslySetInnerHTML used. Ensure the content is sanitized to prevent XSS attacks and doesn't conflict with hydration.",
+      "fix": "Use DOMPurify or similar to sanitize HTML before injecting, or avoid if possible."
+    },
+    {
+      "file": "src\\components\\shop\\ProductActions.tsx",
+      "line": 535,
+      "reason": "dangerouslySetInnerHTML used. Ensure the content is sanitized to prevent XSS attacks and doesn't conflict with hydration.",
+      "fix": "Use DOMPurify or similar to sanitize HTML before injecting, or avoid if possible."
+    },
+    {
+      "file": "src\\components\\shop\\ProductTabs.tsx",
+      "line": 46,
+      "reason": "dangerouslySetInnerHTML used. Ensure the content is sanitized to prevent XSS attacks and doesn't conflict with hydration.",
+      "fix": "Use DOMPurify or similar to sanitize HTML before injecting, or avoid if possible."
+    },
+    {
+      "file": "src\\components\\ui\\chart.tsx",
+      "line": 72,
+      "reason": "dangerouslySetInnerHTML used. Ensure the content is sanitized to prevent XSS attacks and doesn't conflict with hydration.",
+      "fix": "Use DOMPurify or similar to sanitize HTML before injecting, or avoid if possible."
+    }
+  ],
+  "low": [],
+  "safe": [
+    "src\\app\\(dashboard)\\dashboard\\affiliate\\campaigns\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\affiliate\\creatives\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\affiliate\\orders\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\affiliate\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\affiliate\\payout-details\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\affiliate\\payouts\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\affiliate\\performance\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\affiliate\\profile\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\affiliate\\referrals\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\affiliate\\settings\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\customer\\change-password\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\customer\\orders\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\customer\\orders\\[orderId]\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\customer\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\customer\\profile\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\wholesaler\\orders\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\wholesaler\\orders\\[id]\\page.tsx",
+    "src\\app\\(dashboard)\\dashboard\\wholesaler\\page.tsx",
+    "src\\app\\(dashboard)\\layout.tsx",
+    "src\\app\\(public)\\about\\page.tsx",
+    "src\\app\\(public)\\become-an-affiliate\\page.tsx",
+    "src\\app\\(public)\\blog\\[[...slug]]\\page.tsx",
+    "src\\app\\(public)\\brand\\page.tsx",
+    "src\\app\\(public)\\brand\\[slug]\\page.tsx",
+    "src\\app\\(public)\\contact\\page.tsx",
+    "src\\app\\(public)\\design-shop\\[category]\\DesignShopClient.tsx",
+    "src\\app\\(public)\\design-shop\\[category]\\page.tsx",
+    "src\\app\\(public)\\faq\\page.tsx",
+    "src\\app\\(public)\\forgot-password\\page.tsx",
+    "src\\app\\(public)\\house-design\\page.tsx",
+    "src\\app\\(public)\\layout.tsx",
+    "src\\app\\(public)\\login\\layout.tsx",
+    "src\\app\\(public)\\login\\page.tsx",
+    "src\\app\\(public)\\page.tsx",
+    "src\\app\\(public)\\privacy-policy\\page.tsx",
+    "src\\app\\(public)\\product-tag\\[slug]\\page.tsx",
+    "src\\app\\(public)\\projects\\page.tsx",
+    "src\\app\\(public)\\register\\page.tsx",
+    "src\\app\\(public)\\services\\page.tsx",
+    "src\\app\\(public)\\services\\[serviceId]\\page.tsx",
+    "src\\app\\(public)\\services\\[serviceId]\\ServiceDetailsClient.tsx",
+    "src\\app\\(public)\\shipping-returns\\page.tsx",
+    "src\\app\\(public)\\shop\\[categorySlug]\\page.tsx",
+    "src\\app\\(public)\\shop\\[[...categorySlug]]\\page.tsx",
+    "src\\app\\(public)\\tag\\[slug]\\page.tsx",
+    "src\\app\\(public)\\terms\\page.tsx",
+    "src\\app\\(public)\\tips\\page.tsx",
+    "src\\app\\(public)\\tips\\[tipId]\\page.tsx",
+    "src\\app\\(public)\\track-order\\page.tsx",
+    "src\\app\\error.tsx",
+    "src\\app\\layout.tsx",
+    "src\\app\\not-found.tsx",
+    "src\\app\\robots.ts",
+    "src\\app\\test-error\\page.tsx",
+    "src\\app\\[...catchAll]\\page.tsx",
+    "src\\components\\about\\AboutIntro.tsx",
+    "src\\components\\about\\AboutSectionBlock.tsx",
+    "src\\components\\AffiliateTracker.tsx",
+    "src\\components\\AnimatedSection.tsx",
+    "src\\components\\auth\\AuthModal.tsx",
+    "src\\components\\auth\\ForgotPasswordFlow.tsx",
+    "src\\components\\auth\\LoginForm.tsx",
+    "src\\components\\auth\\RegisterFlow.tsx",
+    "src\\components\\blog\\BlogCard.tsx",
+    "src\\components\\blog\\BlogCardSkeleton.tsx",
+    "src\\components\\BrandPartnersSection.tsx",
+    "src\\components\\ContactActionButtons.tsx",
+    "src\\components\\ContactSection.tsx",
+    "src\\components\\custom-page\\DataTable.tsx",
+    "src\\components\\dashboard\\DashboardCharts.tsx",
+    "src\\components\\dashboard\\DataTable.tsx",
+    "src\\components\\dashboard\\ReadOnlyOrderDetail.tsx",
+    "src\\components\\dashboard\\StatCard.tsx",
+    "src\\components\\dashboard\\StatusBadge.tsx",
+    "src\\components\\home\\AnimatedSection.tsx",
+    "src\\components\\home\\CategorySection.tsx",
+    "src\\components\\home\\HeroSectionEnhanced.tsx",
+    "src\\components\\home\\HomeCategoriesSection.tsx",
+    "src\\components\\home\\LazyCategoryProductsSection.tsx",
+    "src\\components\\home\\ProductCardEnhanced.tsx",
+    "src\\components\\layout\\CartSidebar.tsx",
+    "src\\components\\layout\\MobileBottomBar.tsx",
+    "src\\components\\layout\\PublicLayoutClient.tsx",
+    "src\\components\\layout\\SearchInput.tsx",
+    "src\\components\\layout\\Topbar.tsx",
+    "src\\components\\layout\\UserDropdown.tsx",
+    "src\\components\\layout\\WhatsAppButton.tsx",
+    "src\\components\\PageLoader.tsx",
+    "src\\components\\Pagination.tsx",
+    "src\\components\\ProductCardEnhanced.tsx",
+    "src\\components\\ScrollReveal.tsx",
+    "src\\components\\shared\\RedirectHandler.tsx",
+    "src\\components\\shop\\ContactActionButtons.tsx",
+    "src\\components\\shop\\Pagination.tsx",
+    "src\\components\\shop\\ProductDetailsSkeleton.tsx",
+    "src\\components\\shop\\ShopCategoryCard.tsx",
+    "src\\components\\ToastProviders.tsx",
+    "src\\components\\ui\\accordion.tsx",
+    "src\\components\\ui\\alert-dialog.tsx",
+    "src\\components\\ui\\alert.tsx",
+    "src\\components\\ui\\aspect-ratio.tsx",
+    "src\\components\\ui\\avatar.tsx",
+    "src\\components\\ui\\badge.tsx",
+    "src\\components\\ui\\breadcrumb.tsx",
+    "src\\components\\ui\\button.tsx",
+    "src\\components\\ui\\calendar.tsx",
+    "src\\components\\ui\\card.tsx",
+    "src\\components\\ui\\carousel.tsx",
+    "src\\components\\ui\\checkbox.tsx",
+    "src\\components\\ui\\collapsible.tsx",
+    "src\\components\\ui\\command.tsx",
+    "src\\components\\ui\\context-menu.tsx",
+    "src\\components\\ui\\dialog.tsx",
+    "src\\components\\ui\\drawer.tsx",
+    "src\\components\\ui\\dropdown-menu.tsx",
+    "src\\components\\ui\\form.tsx",
+    "src\\components\\ui\\hover-card.tsx",
+    "src\\components\\ui\\input-otp.tsx",
+    "src\\components\\ui\\input.tsx",
+    "src\\components\\ui\\label.tsx",
+    "src\\components\\ui\\menubar.tsx",
+    "src\\components\\ui\\navigation-menu.tsx",
+    "src\\components\\ui\\pagination.tsx",
+    "src\\components\\ui\\popover.tsx",
+    "src\\components\\ui\\progress.tsx",
+    "src\\components\\ui\\radio-group.tsx",
+    "src\\components\\ui\\resizable.tsx",
+    "src\\components\\ui\\scroll-area.tsx",
+    "src\\components\\ui\\select.tsx",
+    "src\\components\\ui\\separator.tsx",
+    "src\\components\\ui\\sheet.tsx",
+    "src\\components\\ui\\skeleton.tsx",
+    "src\\components\\ui\\slider.tsx",
+    "src\\components\\ui\\sonner.tsx",
+    "src\\components\\ui\\switch.tsx",
+    "src\\components\\ui\\table.tsx",
+    "src\\components\\ui\\tabs.tsx",
+    "src\\components\\ui\\textarea.tsx",
+    "src\\components\\ui\\toast.tsx",
+    "src\\components\\ui\\toaster.tsx",
+    "src\\components\\ui\\toggle-group.tsx",
+    "src\\components\\ui\\toggle.tsx",
+    "src\\components\\ui\\tooltip.tsx",
+    "src\\components\\ui\\use-toast.ts",
+    "src\\context\\SettingsContext.tsx",
+    "src\\data\\customers.ts",
+    "src\\data\\tips.ts",
+    "src\\hooks\\use-scroll-fade-in.ts",
+    "src\\hooks\\use-toast.ts",
+    "src\\lib\\api\\about.ts",
+    "src\\lib\\api\\affiliate.ts",
+    "src\\lib\\api\\auth.ts",
+    "src\\lib\\api\\blog.ts",
+    "src\\lib\\api\\brands.ts",
+    "src\\lib\\api\\categories.ts",
+    "src\\lib\\api\\checkout.ts",
+    "src\\lib\\api\\config.ts",
+    "src\\lib\\api\\contacts.ts",
+    "src\\lib\\api\\customer.ts",
+    "src\\lib\\api\\customPages.ts",
+    "src\\lib\\api\\errorLogger.ts",
+    "src\\lib\\api\\home.ts",
+    "src\\lib\\api\\images.ts",
+    "src\\lib\\api\\index.ts",
+    "src\\lib\\api\\marketing.ts",
+    "src\\lib\\api\\orderTracking.ts",
+    "src\\lib\\api\\products.ts",
+    "src\\lib\\api\\settings.ts",
+    "src\\lib\\api\\wholesaler.ts",
+    "src\\lib\\parseAboutContent.ts",
+    "src\\lib\\socialLinks.ts",
+    "src\\lib\\utils.ts",
+    "src\\providers\\AuthProvider.tsx",
+    "src\\providers\\index.tsx",
+    "src\\providers\\SettingsProvider.tsx",
+    "src\\proxy.ts"
+  ]
+}
